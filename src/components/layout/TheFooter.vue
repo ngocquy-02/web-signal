@@ -8,7 +8,9 @@
                     <p class="mb-3"> © 2013-2023 Signal, a 501c3 nonprofit.
                         Signal is a registered trademark in the United States and other countries. </p>
 
-                    <p>For media inquiries, contact <span class="footer-link">press@signal.org</span></p>
+                    <p>For media inquiries, contact 
+                        <a href="mailto:press@signal.org" class="footer-link">press@signal.org</a>    
+                    </p>
                 </div>
                 <!-- Grid column -->
 
@@ -19,13 +21,13 @@
                         Organization
                     </h6>
                     <p>
-                        <a href="#!" class="footer-link">Donate</a>
+                        <router-link class="footer-link" :to="{name: 'Donate'}">Donate</router-link>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Careers</a>
+                        <router-link class="footer-link" :to="{name: 'Career'}">Careers</router-link>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Blog</a>
+                        <router-link class="footer-link" :to="{name: 'Blog'}">Blog</router-link>
                     </p>
                     <p>
                         <a href="#!" class="footer-link">Terms & Privacy Policy</a>
@@ -40,19 +42,19 @@
                         Download
                     </h6>
                     <p>
-                        <a href="#!" class="footer-link">Android</a>
+                        <router-link class="footer-link" :to="{name: 'GetSignal'}">Android</router-link>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">iPhone & iPad</a>
+                        <router-link class="footer-link" :to="{name: 'GetSignal'}">iPhone & iPad</router-link>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Windows</a>
+                        <router-link class="footer-link" :to="{name: 'GetSignal'}">Windows</router-link>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Mac</a>
+                        <router-link class="footer-link" :to="{name: 'GetSignal'}">Mac</router-link>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Linux</a>
+                        <router-link class="footer-link" :to="{name: 'GetSignal'}">Linux</router-link>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -62,13 +64,13 @@
                     <!-- Links -->
                     <h6 class=" fw-bold mb-3">Social</h6>
                     <p>
-                        <a href="#!" class="footer-link">GitHub</a>
+                        <a href="https://github.com/signalapp" target="_blank" class="footer-link">GitHub</a>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Twitter</a>
+                        <a href="https://twitter.com/signalapp" target="_blank" class="footer-link">Twitter</a>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Instagram</a>
+                        <a href="https://www.instagram.com/signal_app/" target="_blank" class="footer-link">Instagram</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -78,10 +80,10 @@
                     <!-- Links -->
                     <h6 class=" fw-bold mb-3">Help</h6>
                     <p>
-                        <a href="#!" class="footer-link">Support Center</a>
+                        <router-link class="footer-link" :to="{name: 'Help'}">Support Center</router-link>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Community</a>
+                        <a href="https://community.signalusers.org/" class="footer-link">Community</a>
                     </p>
                 </div>
                 <!-- Grid column -->
