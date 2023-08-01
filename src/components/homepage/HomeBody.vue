@@ -31,6 +31,7 @@ export default {
     color: #1b1b1b;
     max-height: 760px;
     margin-bottom: 64px;
+    overflow: hidden;
 }
 
 .banner h1 {
